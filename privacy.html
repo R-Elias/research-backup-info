@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Privacy — Research server backups</title>
+<body>
+  <h1>Privacy information</h1>
+  <p>This personal application requests only access to its own Google
+  Drive application-data area. It stores encrypted research-server
+  backups there and lists, downloads, verifies, and deletes its backup
+  files to implement recovery and retention.</p>
+  <p>It does not request access to ordinary Google Drive documents.
+  Backup contents are encrypted by Restic before upload. Google hosts
+  the encrypted data. The operator retains OAuth credentials on the
+  VPS and in protected recovery copies to perform scheduled backups.</p>
+  <p>Backup data is not sold or used for advertising. The application
+  does not intentionally share it with other users. Expired snapshots
+  are removed according to the configured retention policy.</p>
+  <p>The owner can revoke access in Google Account settings. Revocation
+  stops future access; deleting the app's hidden data removes backups.
+  Contact for questions or deletion: hell@no.com .</p>
+  <p><a href="index.html">Home</a></p>
+</body>
+</html>
